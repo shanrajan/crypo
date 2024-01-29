@@ -1,0 +1,39 @@
+/* static/style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-family: 'Georgia', serif;
+    color: #007bff; /* Blue color for the title */
+}
+
+.form-label {
+    font-family: 'Verdana', sans-serif;
+    color: #555; /* Dark grey color for labels */
+}
+
+.btn-primary {
+    background-color: #007bff !important; /* Override Bootstrap default button color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3 !important; /* Darker blue on hover */
+}
